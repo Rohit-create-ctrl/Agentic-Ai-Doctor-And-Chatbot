@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "buildCommand": "cd ai-doctor && npm run build",
+  "installCommand": "cd ai-doctor && npm install",
+  "outputDirectory": "ai-doctor/.next",
+  "framework": "nextjs",
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "/api/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/ai-doctor/$1"
+    }
+  ]
+}

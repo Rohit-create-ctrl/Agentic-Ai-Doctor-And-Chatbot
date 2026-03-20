@@ -1,0 +1,11 @@
+{
+  "name": "agentic-ai-doctor-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "cd ai-doctor && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build:frontend": "cd ai-doctor && npm run build",
+    "install:all": "npm install && cd ai-doctor && npm install && cd ../backend && npm install"
+  }
+}
