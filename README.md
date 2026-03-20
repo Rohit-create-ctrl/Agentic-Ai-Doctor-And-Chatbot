@@ -33,4 +33,4 @@ A full-stack AI-powered medical assistant and health monitoring dashboard built 
 
 ---
 
-*Disclaimer: This application provide health information only and should not replace professional medical advice.*
+*Disclaimer: This application provides health information only and should not replace professional medical advice.*
